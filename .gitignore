@@ -1,0 +1,6 @@
+.local
+.env
+toran-proxy/ssh/config
+toran-proxy/ssh/id_rsa
+toran-proxy/ssh/id_rsa.pub
+toran-proxy/ssh/known_hosts

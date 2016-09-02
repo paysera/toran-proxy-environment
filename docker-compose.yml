@@ -1,0 +1,12 @@
+version: '2'
+services:
+  toran-proxy:
+    build: toran-proxy
+    ports:
+      - 4000:443
+    env_file:
+      - .env
+    volumes:
+      - toran-proxy:/data/toran-proxy
+volumes:
+  toran-proxy: {}
